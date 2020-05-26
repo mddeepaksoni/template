@@ -1,0 +1,70 @@
+# Java
+## class
+*.class
+
+## log
+*.log
+
+## package
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# Maven
+.mvn/
+target/
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+buildNumber.properties
+
+
+# Eclipse
+.settings/
+.externalToolBuilders/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.metadata
+.loadpath
+.recommenders
+local.properties
+
+## annotation processing
+.factorypath
+.apt_generated/
+.apt_generated_test/
+
+## locally stored launch configurations
+*.launch
+
+## code recommenders
+.recommenders/
+
+## spring tool suite
+.springBeans
+
+
+# Jetbrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+## user specific
+.idea/
+.idea_modules/
+out/
+*.iml
+
+## file based project
+*.iws
+
+## jira plugin
+atlassian-ide-plugin.xml
