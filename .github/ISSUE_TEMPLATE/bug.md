@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: Help us to improve
+about: Please help us to improve
 title: "[bug summary]"
 labels: bug
 assignees: mddeepaksoni

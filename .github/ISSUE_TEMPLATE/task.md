@@ -1,6 +1,6 @@
 ---
 name: Task
-about: Task to be performed
+about: Task need to be done to achieve goal
 title: "[task summary]"
 labels: task
 assignees: mddeepaksoni

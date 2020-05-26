@@ -18,7 +18,7 @@ LABELS=(
   "help wanted"         "008672"          "Extra attention is needed"
   "invalid"             "e4e669"          "Doesn't seem right"
   "question"            "d876e3"          "Further information is requested"
-  "task"                "7057ff"          "Task required for other issues"
+  "task"                "7057ff"          "Task required to achieve goal"
   "wontfix"             "ffffff"          "Will not be worked on"
 )
 
