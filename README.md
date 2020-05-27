@@ -16,18 +16,15 @@ Please follow the below `bash` instructions to create repository using this temp
     ```
 2. Setup readme.md file
     ```bash
-    mv README.template README.md
+    vim README.md
     ```
 3. Setup gitignore
     ```bash
-    cp gitignore/<template>.gitignore .gitignore
-    rm -rf gitignore
+    vim .gitignore
     ```
-4. Setup workflows
+4. Setup build workflow
     ```bash
-    rm .github/workflows/*
-    cp gitworkflow/<template>.yml .github/workflows/<workflow>.yml
-    rm -rf gitworkflow
+    vim .github/workflows/build.yml
     ```
 5. Create labels
    Generate Personal Access Tokens via Settings -> Developer Settings -> Personal Access Token
@@ -36,20 +33,10 @@ Please follow the below `bash` instructions to create repository using this temp
    ```
 
 ## Checklist
-### Readme
-- [ ] Replace `README.md` with `README.template`
-- [ ] Remove `README.template`
 - [ ] Edit `README.md`
-
-### Git Ignore
-- [ ] Copy `gitignore/<template>.gitignore` file to `.gitignore`
-- [ ] Remove `gitignore` directory
-- [ ] Edit `.gitignore` 
-
-### Git Workflow
-- [ ] Copy `gitworkflow/<template>.yml` file to `.github/workflows/<workflow>.yml`
-- [ ] Remove `gitworkflow` directory
-- [ ] Edit `.github/workflows/<workflow>.yml`
+- [ ] Edit `.gitignore`
+- [ ] Edit `.github/workflows/build.yml`
+- [ ] Create `label` by executing `sh .github/LABEL_TEMPLATE.sh <owner>/<repo> <personal-access-token>`
 
 ## Contribute
 We would be happy to accept pull requests. If you want to work on something, it will be good to talk before hand to make sure nobody else is working on it. You can reach us in [issues](https://github.com/mddeepaksoni/template/issues).
